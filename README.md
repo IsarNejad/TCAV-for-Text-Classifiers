@@ -6,13 +6,13 @@ Nejadgholi, I. Fraser, K. C., Kiritchenko, S. (2022). Improving Generalizability
 
 ## Data
 
-We annoated the Hostile class of the EA-dev set and the Hate class of the CH dataset for implicit/explicit abuse. This data is used in the experiments of Section 5. Also, a subset of these datasets are used as concept examples to define the implicit and explicit concepts as described in Section 4. 
+We annoated the _Hostile_ class of the _EA-dev_ set and the _Hate_ class of the _CH_ dataset for implicit/explicit abuse. This data is used in the experiments of Section 5. Also, a subset of these datasets are used as concept examples to define the implicit and explicit concepts as described in Section 4. 
 
 There are four files in the Data folder:
 
-CH_Anti_Asian_hate_implicit_indexes.csv : indexes of implicitly hateful samples in the Anti Asian Hate class of the CH dataset. These indexes correspond to indexes of the `annotations.csv` file available at http://claws.cc.gatech.edu/covid/. 
+CH_Anti_Asian_hate_implicit_indexes.csv : indexes of implicitly hateful samples in the _Anti Asian Hate_ class of the _CH_ dataset. These indexes correspond to indexes of the `annotations.csv` file available at http://claws.cc.gatech.edu/covid/. 
 
-CH_Anti_Asianhate_explicit_indexes.csv : indexes of explicitly hateful samples in the Anti Asian Hate class of the CH dataset. These indexes correspond to indexes of the `annotations.csv` file available at http://claws.cc.gatech.edu/covid/. 
+CH_Anti_Asianhate_explicit_indexes.csv : indexes of explicitly hateful samples in the _Anti Asian Hate_ class of the _CH_ dataset. These indexes correspond to indexes of the `annotations.csv` file available at http://claws.cc.gatech.edu/covid/. 
 
 
 EA_dev_hostile_implicit_ids.csv: tweet ids of implicitly hostile samples in the EA-dev set. The whole dataset is availabel at https://zenodo.org/record/3816667#.YUJPkJ1KiUk
