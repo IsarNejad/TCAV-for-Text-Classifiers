@@ -115,7 +115,7 @@ def get_preds_tcavs(classifier = 'toxicity',desired_class = 1,examples_set = 'ra
 
 
   if examples_set=='random':
-    examples = random_examples[:2000]#random_examples
+    examples = random_examples[:1000]#random_examples
   else:
     print('examples are unknown')
     return
