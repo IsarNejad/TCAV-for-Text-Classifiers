@@ -27,7 +27,4 @@ These notebooks illusterate how to use the above functionalities. In all of the 
 
 `TCAV_Example.ipynb`: This notebook shows how to calculate the sensitivity of a trained classifier to a human-defined concept (similar to the results in Table 5 of the paper. 
 
-wiki-DoE.ipynb: This colab notebook calcuates the DoE scores used in section 6 of the paper. DoE scores are saved in 'toxic_DoEs.csv' and used by the 'augment-DoE-based.ipynb' for data augmentation. 
-
-augment-DoE-based.ipynb: This colab notebook trains an augmented Wiki classifier discussed in section 6. The data augmnetation is based on DoE scores saved in 'toxic_DoEs.csv'. We use the trainer module from Huggingface for training a RoBerta-based binary classifier. 
-
+`DoE_example`.ipynb: This colab notebook calcuates the Degree of Explicitness (DoE scores introduced in section 5 of the paper). 
