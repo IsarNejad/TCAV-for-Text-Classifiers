@@ -12,8 +12,8 @@ from transformers import RobertaTokenizerFast
 from torch.utils.data.dataloader import DataLoader
 from Roberta_model_data import RobertaClassifier,ToxicityDataset
 
-PATH_TO_Data = "DATA_PATH"
-PATH_TO_MODELS = "MODEL_PATH"
+PATH_TO_Data = ""
+PATH_TO_MODELS = ""
 
 device = torch.device('cuda') if torch.cuda.is_available() else torch.device('cpu')
 
