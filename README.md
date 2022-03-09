@@ -25,7 +25,7 @@ As described in the paper, we annotated the _Hostile_ class of the dev set of th
 ### Example Notebooks:
 These notebooks illusterate how to use the above functionalities. In all of the notebooks, the _Toxicity_ classifier refers to a roberta-based binary classifier trained with the [Wiki](https://github.com/IsarNejad/cross_dataset_toxicity) dataset. 
 
-Table4.ipynb: This colab notebook re-produces the results in Table 4. 
+`TCAV-Example.ipynb`: This notebook shows how to calculate the sensitivity of a trained classifier to a human-defined concept (similar to the results in Table 5 of the paper. 
 
 wiki-DoE.ipynb: This colab notebook calcuates the DoE scores used in section 6 of the paper. DoE scores are saved in 'toxic_DoEs.csv' and used by the 'augment-DoE-based.ipynb' for data augmentation. 
 
