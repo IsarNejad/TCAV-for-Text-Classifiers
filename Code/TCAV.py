@@ -12,8 +12,8 @@ import random
 random.seed(100)
 
 
-PATH_TO_Data = 'PATH_TO_Data'
-PATH_TO_Model = 'PATH_TO_Model'
+PATH_TO_Data = ''
+PATH_TO_Model = ''
 
 with open(PATH_TO_Data+'data/random_stopword_tweets.txt','r') as f_:
   random_examples= f_.read().split('\n\n')
