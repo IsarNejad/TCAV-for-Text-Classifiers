@@ -21,14 +21,14 @@ model_folder_toxic = PATH_TO_MODELS+'/models/exp-Toxic-roberta'
 model_toxic = RobertaClassifier(model_folder_toxic)
 tokenizer_toxic = RobertaTokenizerFast.from_pretrained(model_folder_toxic)
 
-model_folder_Founta = PATH_TO_MODELS+'models/exp-Founta_original_roberta'
-model_Founta = RobertaClassifier(model_folder_Founta)
-tokenizer_Founta = RobertaTokenizerFast.from_pretrained(model_folder_Founta)
+#model_folder_Founta = PATH_TO_MODELS+'models/exp-Founta_original_roberta'
+#model_Founta = RobertaClassifier(model_folder_Founta)
+#tokenizer_Founta = RobertaTokenizerFast.from_pretrained(model_folder_Founta)
 
 
-model_folder_EA = PATH_TO_MODELS+'models/exp-EA_2_class_roberta'
-model_EA = RobertaClassifier(model_folder_EA)
-tokenizer_EA = RobertaTokenizerFast.from_pretrained(model_folder_EA)
+#model_folder_EA = PATH_TO_MODELS+'models/exp-EA_2_class_roberta'
+#model_EA = RobertaClassifier(model_folder_EA)
+#tokenizer_EA = RobertaTokenizerFast.from_pretrained(model_folder_EA)
 
 
 
