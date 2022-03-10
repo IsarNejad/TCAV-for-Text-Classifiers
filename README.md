@@ -1,4 +1,4 @@
-# TCAV for Explaining text Classifiers 
+# TCAV for Explaining Text Classifiers 
 
 This repository provides the data and code related to the following ACL2022 publication: 
 
