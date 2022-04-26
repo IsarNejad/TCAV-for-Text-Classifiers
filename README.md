@@ -2,7 +2,7 @@
 
 This repository provides the data and code related to the following ACL2022 publication: 
 
-Nejadgholi, I. Fraser, K. C., Kiritchenko, S. (2022). Improving Generalizability in Implicitly Abusive Language Detection with Concept Activation Vectors. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics. 
+Nejadgholi, I. Fraser, K. C., Kiritchenko, S. (2022). Improving Generalizability in Implicitly Abusive Language Detection with Concept Activation Vectors. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics. https://arxiv.org/pdf/2204.02261.pdf
 
 ## Data
 
